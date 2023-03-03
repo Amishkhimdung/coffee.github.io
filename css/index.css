@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Shantell Sans";
+
+}
+
+body {
+    background-color: #463123;
+}
+
+.container {
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #6F4E37;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-family: "Patrick Hand";
+    cursor: pointer;
+}
+.logo a{
+    display: flex;
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+nav ul li {
+    list-style: none;
+    display: inline-flex;
+    margin: 20px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color: #D5CEA3;
+}
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.grid-container .grid-item {
+    line-height: 40px;
+}
+
+.grid-container .grid-item img {
+    border-radius: 20px;
+    height: 500px;
+    width: 320px;
+}
+
+.content .but {
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 40px;
+    padding: 14px 60px;
+    background-color: #6F4E37;
+    
+}
+.content .but a{
+    text-decoration: none;
+    color: wheat;
+}
+.container-2 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.grid-item .butt {
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 14px 55px;
+    background-color: #2b1e15;
+    color: wheat;
+    transition: background 0.5s;
+}
+
+.grid-item .butt:hover {
+    background-color: #614430;
+}
+
+.footer {
+    padding-top: 3em;
+    padding-bottom: 5em;
+    line-height: 60px;
+    background-color: #3C2A21;
+    color: wheat;
+    text-align: center;
+    font-size: 25px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: wheat;
+    margin: 10px 30px;
+}
+
+.contact {
+    background-color: #1b130d;
+}
+
+.container_3 {
+    padding: 60px 10%;
+
+}
+
+.sub-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-left {
+    color: aliceblue;
+    flex-basis: 35%;
+    font-size: 25px;
+}
+
+.contact-right {
+    flex-basis: 60%;
+    padding-top: 100px;
+}
+
+.contact-left p {
+    margin-top: 30px;
+}
+
+.contact-left p i {
+    color: wheat;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+
+.btn {
+    padding: 14px 60px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 50px auto;
+    width: fit-content;
+    border: 2px solid #0a0705;
+    border-radius: 5px;
+    transition: background 0.5s;
+}
+
+.btn.btn2:hover {
+    background: #5c412d;
+}
+
+.btn.btn2 {
+    display: inline-block;
+    background-color: black;
+    font-size: 25px;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #36261b;
+    padding: 15px;
+    margin: 15px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+form .btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#msg {
+    color: green;
+    margin-top: -40px;
+    display: block;
+}
